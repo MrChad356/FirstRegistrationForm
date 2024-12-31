@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+body {
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    background-color: #a6aebf;
+    font-size: 16px;
+}
+/*-------------------HEADER----------------------*/
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.site-description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+/*-------------------HEADER----------------------*/
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.fieldset-description {
+    text-align: center;
+}
+
+fieldset {
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #FFF8DE;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 95%;
+    border: 0;
+    margin-top: 1rem;
+    background-color: #C5D3E8;
+    padding: 1rem 0.5rem;
+    
+}
+
+.second-description {
+    margin: 2rem 0;
+}
+
+
+.pet-type input {
+    margin: unset;
+    width: unset;
+}
+
+.pet-type {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

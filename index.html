@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Get a Pet</title>
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+        <img src="/assets/petFingerprit.png" alt="Website Logo" loading="eager" class="logo">
+        <h1 class="main-title">Get a pet</h1>
+        </div>
+        <p class="site-description">Fill Out This Form to Find The Pet of Your Dreams</p>        
+    </header>
+    <main>
+        <p class="fieldset-description">Pet Owner Details</p>
+        <form action="youtube.com" method="post">
+            <fieldset>
+                <label for="first-name">Name
+                    <input type="text" id="first-name" placeholder="Eg. Jhon" required>
+                </label>
+                <label for="last-name">Last Name
+                    <input type="text" id="last-name" placeholder="Eg. Smith" required>
+                </label>
+                <label for="email">Email
+                    <input type="email" id="email" placeholder="Eg. john@gmail.com" required>
+                </label>
+                <label for="phone-number">Phone Number
+                    <input type="number" id="phone-number" placeholder="Eg. +17438633" required>
+                </label>
+            </fieldset>
+            <p class="fieldset-description second-description">Pet Details</p>
+            <fieldset class="radio-group">
+                <label for="dog-option" class="pet-type">Dog
+                    <input type="radio" name="pet" id="dog-option" value="dog" checked>
+                </label>
+                <label for="cat-option" class="pet-type">Cat
+                    <input type="radio" name="pet" id="cat-option" value="cat">
+                </label>
+            </fieldset>
+            <fieldset>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
