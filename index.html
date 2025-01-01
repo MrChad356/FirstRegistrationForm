@@ -10,6 +10,7 @@
     <title>Get a Pet</title>
 </head>
 <body>
+
     <header>
         <div class="logo-title">
         <img src="/assets/petFingerprit.png" alt="Website Logo" loading="eager" class="logo">
@@ -17,10 +18,12 @@
         </div>
         <p class="site-description">Fill Out This Form to Find The Pet of Your Dreams</p>        
     </header>
+
     <main>
-        <p class="fieldset-description">Pet Owner Details</p>
-        <form action="youtube.com" method="post">
-            <fieldset>
+        <p class="first-description">Pet Owner Details</p>
+        <form action="https://register-demo.freecodecamp.org" method="post">
+
+            <fieldset class="first-fieldset">
                 <label for="first-name">Name
                     <input type="text" id="first-name" placeholder="Eg. Jhon" required>
                 </label>
@@ -34,22 +37,54 @@
                     <input type="number" id="phone-number" placeholder="Eg. +17438633" required>
                 </label>
             </fieldset>
-            <p class="fieldset-description second-description">Pet Details</p>
-            <fieldset class="radio-group">
-                <label for="dog-option" class="pet-type">Dog
+
+            <p class="second-description">Pet Details</p>
+
+            <fieldset class="second-fieldset">
+                <p class="pet-characteristics">Type:</p>
+                
+                <div class="dog-option">
+                    <label for="dog-option">Dog</label>
                     <input type="radio" name="pet" id="dog-option" value="dog" checked>
-                </label>
-                <label for="cat-option" class="pet-type">Cat
+                </div>
+
+                <div class="cat-option">
+                    <label for="cat-option">Cat</label>
                     <input type="radio" name="pet" id="cat-option" value="cat">
+                </div>
+
+                <p class="pet-characteristics">Age:</p>
+
+                <div class="adult-option">
+                    <label for="adult-age">Adult</label>
+                    <input type="radio" name="age" id="adult-age" value="adult" checked>
+                </div>
+
+                <div class="puppy-option">
+                    <label for="puppy-age">Puppy</label>
+                    <input type="radio" name="age" id="puppy-age" value="puppy">
+                </div>
+            </fieldset>
+
+            <fieldset class="third-fieldset">
+                <label for="referrer"> How did you hear about us?
+                    <select name="referrer" id="referrer">
+                        <option value="other">Other</option>
+                        <option value="social media">Social Media</option>
+                        <option value="friends or family">Friends or Family</option>
+                        <option value="website">Get A Pet Website</option>
+                    </select>
+                </label>
+                <label for="ideal-pet">Tell us About The Ideal Pet
+                    <textarea name="idea-pet" id="idea-pet" placeholder="The ideal pet is very fluffy..." rows="3" cols="30"></textarea>
                 </label>
             </fieldset>
-            <fieldset>
-            </fieldset>
+            <label for="terms-conditions">
+                <input type="checkbox" name="terms-conditions" id="terms-conditions" class="terms-conditions" required>
+                I Accept<a href="https://www.freecodecamp.org/news/terms-of-service/" target="_blank"> Terms and Conditions</a>
+            </label>
             <input type="submit" value="Submit">
         </form>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>

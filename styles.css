@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -56,6 +56,7 @@ body {
 
 /*-------------------HEADER----------------------*/
 
+/*-------------------MAIN----------------------*/
 form {
     width: 60vw;
     max-width: 500px;
@@ -63,21 +64,22 @@ form {
     margin: 0 auto;
 }
 
-.fieldset-description {
+.first-description {
     text-align: center;
 }
 
 fieldset {
     padding-bottom: 2rem;
     border-bottom: 3px solid #FFF8DE;
+    margin-bottom: 2rem;
 }
 
-label {
+.first-fieldset label {
     display: block;
     margin-bottom: 1rem;
 }
 
-input {
+.first-fieldset input {
     width: 95%;
     border: 0;
     margin-top: 1rem;
@@ -88,16 +90,85 @@ input {
 
 .second-description {
     margin: 2rem 0;
+    text-align: center;
 }
 
-
-.pet-type input {
-    margin: unset;
-    width: unset;
+.pet-characteristics {
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
-.pet-type {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.second-fieldset input {
+    margin: 0;
+    padding: 0;
 }
+
+.dog-option input{
+    margin-left: 2rem;
+}
+
+.cat-option {
+    margin-top: 1rem;
+}
+
+.cat-option input {
+    margin-left: 2.2rem;
+}
+
+.adult-option input {
+    margin-left: 1.6rem;
+}
+
+.puppy-option input{
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+}
+
+.third-fieldset label {
+    min-height: 64px;
+}
+
+.third-fieldset select{
+    background-color: #C5D3E8;
+    width: 100%;
+    min-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.third-fieldset textarea {
+    background-color: #C5D3E8;
+    display: block;
+    width: 100%;
+    min-height: 3rem;
+    margin-top: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #C5D3E8;
+}
+
+.terms-conditions {
+    display: inline-block;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFF8DE;
+}
+
+input[type="submit"] {
+    background-color: #C5D3E8;
+    display: block;
+    margin: 4rem auto;
+    width: 60%;
+    border-color: #C5D3E8;
+    min-height: 2rem;
+}
+
+/*-------------------MAIN----------------------*/
